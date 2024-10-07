@@ -30,11 +30,11 @@ Now, you have successfully set up RTSPtoWeb
 
 3. Third
 Set up the backend
+You will need a MongoDB Server Locally
 ```
 cd ../backend/
 pip install flask pymongo flask_cors
 ```
-You will need a MongoDB Server Locally
 Run the server
 
 4. Final step
