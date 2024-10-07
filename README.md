@@ -2,13 +2,13 @@
 
 ## Getting Started
 
-###First
+##First
 ```
 git clone https://github.com/sahitya-chandra/LiveStream.git
 cd LiveStream/
 ```
 
-###Second, 
+##Second, 
 This is the important part.
 
 Convert RTSP URL to HTTP URL
@@ -27,7 +27,7 @@ Within this dashboard we can see a few of the different formats that RTSPtoWeb c
 
 Now, you have successfully set up RTSPtoWeb
 
-###Third
+##Third
 1. Set up the backend
 ```
 cd ../backend/
@@ -36,7 +36,7 @@ pip install flask pymongo flask_cors
 2. You will need a MongoDB Server Locally
 3. Run the server
 
-###Final
+##Final step
 For Frontend
 ```
 cd ../frontend/
