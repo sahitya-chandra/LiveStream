@@ -23,7 +23,7 @@ const VideoFeed: React.FC<VideoFeedProps> = ({ src }) => {
 
     useEffect(() => {
         const fetchOverlays = async () => {
-            const response = await fetch('${BASE_URL}/api/overlays');
+            const response = await fetch(`${BASE_URL}/api/overlays`);
             const data = await response.json();
             setOverlays(data);
         };
